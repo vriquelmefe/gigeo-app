@@ -9945,7 +9945,7 @@ img {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -9953,12 +9953,6 @@ h5 {
   font-weight: 700;
 }
 
-@media only screen and (min-width: 1200px) {
-  body {
-    width: 1200px;
-    margin: 0 auto;
-  }
-}
 .header {
   margin: 0;
   padding: 0;
@@ -9969,7 +9963,7 @@ h5 {
   background-image: url("../../assets/images/image-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 18vh;
+  height: 15vh;
   margin: 0;
   padding: 0;
 }
@@ -9994,8 +9988,17 @@ h5 {
   display: flex;
 }
 
+.main.container {
+  padding: 0;
+}
+
 .card {
   border: none;
+}
+
+.main__body {
+  text-align: left;
+  padding-left: 0;
 }
 
 .btn {
@@ -10021,12 +10024,12 @@ h5 {
 }
 .user-info__logo {
   color: black;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
   position: absolute;
 }
 .user-info__logo span {
-  font-size: 12px;
+  font-size: 14px;
   margin-left: -0.9em;
 }
 
@@ -10037,17 +10040,8 @@ h5 {
   margin: 0;
 }
 
-.navbar-icon {
-  display: flex;
-  justify-content: left;
-}
-.navbar-icon i {
-  align-self: flex-start;
-  font-size: 1.2em;
-}
-
-.navbar-toggler {
-  padding: 5px 0;
+.navbar-collapse {
+  justify-content: flex-end;
 }
 
 .navbar-light .navbar-toggler {
