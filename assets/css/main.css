@@ -9970,7 +9970,7 @@ h5 {
 
 .header__profile {
   display: flex;
-  height: 10vh;
+  height: 8vh;
 }
 
 .header__body > h2 {
@@ -9984,7 +9984,7 @@ h5 {
 }
 
 .main__tittle {
-  font-size: 20px;
+  font-size: 30px;
   display: flex;
 }
 
