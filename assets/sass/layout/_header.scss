@@ -1,0 +1,29 @@
+.header {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.header__background {
+  background-image: url('../../assets/images/image-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header__profile {
+  display: flex;
+  height: 10vh;
+}
+
+.header__body>h2 {
+  font-size: $medium;
+  font-weight: $bold;
+}
+
+.header__body>p {
+  margin-left: .5em;
+  margin-top: -.5em;
+}

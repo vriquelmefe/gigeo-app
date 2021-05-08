@@ -1,0 +1,53 @@
+/*components: navigations*/
+
+//base
+.navbar {
+  padding: 1em 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: .5em;
+  text-transform: uppercase;
+  &__logo {
+    color: black;
+    font-size: $large;
+    font-weight: $mediano;
+    position: absolute;
+    & span {
+      font-size: $x-small;
+      margin-left: -.9em;
+    }
+  }
+}
+
+.user-info__sumary {
+  padding-left: 0.8em;
+  span {
+    margin: 0;
+  }
+}
+
+.navbar-icon {
+  display: flex;
+  justify-content: left;
+  i {
+    align-self: flex-start;
+    font-size: 1.2em;
+  }
+}
+
+.navbar-toggler {
+  padding: 5px 0;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
