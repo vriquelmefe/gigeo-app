@@ -15,7 +15,11 @@
 
 .header__profile {
   display: flex;
-  height: 8vh;
+  height: 10vh;
+}
+
+.header__body {
+  padding-top: 1em;
 }
 
 .header__body>h2 {

@@ -9970,7 +9970,11 @@ h5 {
 
 .header__profile {
   display: flex;
-  height: 8vh;
+  height: 10vh;
+}
+
+.header__body {
+  padding-top: 1em;
 }
 
 .header__body > h2 {
@@ -10042,6 +10046,14 @@ h5 {
 
 .navbar-collapse {
   justify-content: flex-end;
+}
+
+.fa-search,
+.fa-video,
+.fa-plus,
+.fa-bell,
+.fa-bars {
+  color: black;
 }
 
 .navbar-light .navbar-toggler {

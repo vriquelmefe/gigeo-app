@@ -39,6 +39,23 @@
   justify-content: flex-end;
 }
 
+// .navbar__link-icon::before {
+//   font-size: $medium;
+// }
+// .navbar__link-icon::before {
+//   color: black;
+//   .navbar-toggler-icon {
+//     color: black;
+//   }
+// }
+.fa-search,
+.fa-video,
+.fa-plus,
+.fa-bell,
+.fa-bars {
+  color: black;
+}
+
 // .navbar-icon {
 //   display: flex;
 //   justify-content: flex-end;
