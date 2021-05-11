@@ -9963,7 +9963,7 @@ h5 {
   background-image: url("../../assets/images/image-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 15vh;
+  height: 12vh;
   margin: 0;
   padding: 0;
 }
@@ -9972,7 +9972,12 @@ h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-content: center;
   height: 10vh;
+}
+
+.header__profile--image {
+  align-self: center;
 }
 
 .header__body {
@@ -10076,6 +10081,7 @@ h5 {
 
 .thumbnails_normal {
   max-width: 65px;
+  height: 8vh;
 }
 
 /*# sourceMappingURL=main.css.map */
