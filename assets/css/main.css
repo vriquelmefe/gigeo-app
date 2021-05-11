@@ -9932,7 +9932,7 @@ h3 {
   margin: 0;
 }
 
-body > div.wrapper.row {
+body > div.row {
   margin: 0;
 }
 
@@ -9969,6 +9969,8 @@ h5 {
 }
 
 .header__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 10vh;
 }
@@ -9989,6 +9991,8 @@ h5 {
 
 .main__tittle {
   font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -10012,7 +10016,11 @@ h5 {
 /*components: navigations*/
 .navbar {
   padding: 1em 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -10045,6 +10053,8 @@ h5 {
 }
 
 .navbar-collapse {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 

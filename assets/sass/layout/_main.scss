@@ -1,5 +1,7 @@
 .main__tittle {
   font-size: $medium;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 

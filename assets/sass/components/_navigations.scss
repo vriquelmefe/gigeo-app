@@ -3,7 +3,11 @@
 //base
 .navbar {
   padding: 1em 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -36,18 +40,11 @@
 }
 
 .navbar-collapse {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
-// .navbar__link-icon::before {
-//   font-size: $medium;
-// }
-// .navbar__link-icon::before {
-//   color: black;
-//   .navbar-toggler-icon {
-//     color: black;
-//   }
-// }
 .fa-search,
 .fa-video,
 .fa-plus,
@@ -56,22 +53,6 @@
   color: black;
 }
 
-// .navbar-icon {
-//   display: flex;
-//   justify-content: flex-end;
-//   margin-right: 0;
-//   i {
-//     align-self: flex-start;
-//     font-size: 1.2em;
-//   }
-// }
-// .navbar-toggler {
-//   padding: 5px 0;
-// }
 .navbar-light .navbar-toggler {
   border-color: transparent;
 }
-
-// .navbar-nav {
-//   justify-content: left;
-// }
